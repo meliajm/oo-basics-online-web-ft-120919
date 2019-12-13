@@ -17,6 +17,10 @@ class Book
     @author
   end
   
+  def page_count=(num)
+    @page_count
+  end
+  
 end
 
 # Book.new("And Then There Were None")
